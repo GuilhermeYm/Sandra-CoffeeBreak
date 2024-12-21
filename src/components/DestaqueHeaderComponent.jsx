@@ -8,7 +8,7 @@ const inria = Inria_Serif({
 
 export default function DestaqueHeaderComponent() {
   return (
-    <section className="py-16 px-24">
+    <section className="py-16 px-20">
       <h2 className="font-extrabold text-5xl mb-2">Destaque</h2>
       <p className={`text-4xl ${inria.className} w-[500px] leading-10`}>
         Cozinhamos com amor. Montamos lindos pratos, criamos sabores refinados,

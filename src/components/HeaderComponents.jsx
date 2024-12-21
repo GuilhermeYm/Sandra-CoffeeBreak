@@ -24,7 +24,7 @@ export default function HeaderComponents() {
   return (
     <header className="w-full flex flex-col bg-backgroundHeader text-white">
       <nav className="w-full flex justify-between items-center py-8 px-16 xl:gap-[300px] 2xl:gap-[400px] bg-backgroundHeaderNav ">
-        <h1 className={`${island.className} text-6xl w-fit tracking-[10px]`}>
+        <h1 className={`${island.className} text-6xl 2xl:w-11 tracking-[10px] xl:w-fit`}>
           Sandra Saraiva
         </h1>
         <ul className="py-8 px-5 flex gap-11 items-center">
@@ -54,7 +54,7 @@ export default function HeaderComponents() {
           </li>
         </ul>
       </nav>
-      <article className={`${montserrat.className} flex w-full gap-96`}>
+      <article className={`${montserrat.className} flex w-full gap-32 pr-16`}>
         <DestaqueHeaderComponent />
         <ImagesHeaderComponents />
       </article>
