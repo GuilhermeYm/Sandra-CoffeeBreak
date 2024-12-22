@@ -24,7 +24,7 @@ export default function ImagesHeaderComponents() {
         <CarouselContent>
           <CarouselItem className="xl:basis-1/2 2xl:basis-1/3">
             <Image
-              src={"/images/boloDeBanana.jpg"}
+              src={"/images/boloDeBanana.png"}
               alt="Bolo de banana"
               width={393}
               height={308}
@@ -33,7 +33,7 @@ export default function ImagesHeaderComponents() {
           </CarouselItem>
           <CarouselItem className="xl:basis-1/2 2xl:basis-1/3">
             <Image
-              src={"/images/papaiNoel.jpg"}
+              src={"/images/papaiNoel.png"}
               alt="Bolo de banana"
               width={393}
               height={308}
@@ -42,7 +42,7 @@ export default function ImagesHeaderComponents() {
           </CarouselItem>
           <CarouselItem className="xl:basis-1/2 2xl:basis-1/3">
             <Image
-              src={"/images/pãodoce.jpg"}
+              src={"/images/pãodoce.png"}
               alt="Bolo de banana"
               width={393}
               height={308}
@@ -55,6 +55,7 @@ export default function ImagesHeaderComponents() {
               alt="Bolo de banana"
               width={393}
               height={308}
+              className="rounded-3xl"
             />
           </CarouselItem>
         </CarouselContent>
