@@ -11,7 +11,9 @@
   --background-mainThreePartOne: #3C2312;
   --background-mainThree: #261206;
   --background-sectionMainThree: #F2E2CE;
-
+  --background-badgeSectionMainThree: #E3D2B4;
+  --background-mainFour: #260B01;
+  --background-sectionMainFour: #593128;
 }
 
 @layer base {

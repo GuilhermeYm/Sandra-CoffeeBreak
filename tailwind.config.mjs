@@ -18,6 +18,10 @@ export default {
         backgroundMainThreePartOne: "var(--background-mainThreePartOne)",
         backgroundMainThree: "var(--background-mainThree)",
         backgroundSectionMainThree: "var(--background-sectionMainThree)",
+        backgroundBadgeSectionMainThree:
+          "var(--background-badgeSectionMainThree)",
+        backgroundMainFour: "var(--background-mainFour)",
+        backgroundSectionMainFour: "var(--background-sectionMainFour)",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
