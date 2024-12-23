@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 
 export default function AboutUsComponent() {
   return (
-    <article className="w-full bg-backgroundMainTwo text-white flex gap-16 py-8 items-center px-3">
+    <article className="w-full bg-backgroundMainTwo text-white flex gap-16 py-8 items-center px-3" id="aboutUs">
       <div className="relative basis-1/2 ml-5 flex flex-1">
         <Image
           src={"/images/Café 1.png"}

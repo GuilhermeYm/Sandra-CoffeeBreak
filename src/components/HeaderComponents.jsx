@@ -1,6 +1,7 @@
 import { Inter, Island_Moments, Montserrat } from "next/font/google";
 import DestaqueHeaderComponent from "./DestaqueHeaderComponent";
 import ImagesHeaderComponents from "./ImagesHeaderComponents";
+import Link from "next/link";
 
 const island = Island_Moments({
   weight: ["400"],
@@ -23,38 +24,43 @@ const inter = Inter({
 export default function HeaderComponents() {
   return (
     <header className="w-full flex flex-col bg-backgroundHeader text-white">
-      <nav className="w-full flex justify-between items-center py-8 px-16 xl:gap-[300px] 2xl:gap-[400px] bg-backgroundHeaderNav ">
-        <h1 className={`${island.className} text-6xl 2xl:w-11 tracking-[10px] xl:w-fit`}>
-          Sandra Saraiva
+      <nav className="w-full flex justify-between items-center py-8 px-16 xl:gap-[300px] 2xl:gap-[400px] bg-backgroundHeaderNav">
+        <h1
+          className={`${island.className} text-6xl 2xl:w-11 tracking-[10px] xl:w-fit`}
+        >
+          <Link href={"/"}>Sandra Saraiva</Link>
         </h1>
         <ul className="py-8 px-5 flex gap-11 items-center">
           <li
             id="da"
             className={`${inter.className} 2xl:text-4xl xl:text-2xl tracking-[5px]`}
           >
-            Home
+            <Link href={"#home"}>Home</Link>
           </li>
           <li
             id="da"
             className={`${inter.className} 2xl:text-4xl xl:text-2xl tracking-[5px]`}
           >
-            Contato
+            <Link href={"#contact"}>Contato</Link>
           </li>
           <li
             id="da"
             className={`${inter.className}  tracking-[5px] 2xl:text-4xl xl:text-2xl`}
           >
-            Sobre nós
+            <Link href={"#aboutUs"}>Sobre nós</Link>
           </li>
           <li
             id="da"
             className={`${inter.className} tracking-[5px] 2xl:text-4xl xl:text-2xl`}
           >
-            Github
+            <Link href={"github.com/GuilhermeYm"}>Github</Link>
           </li>
         </ul>
       </nav>
-      <article className={`${montserrat.className} flex w-full gap-32 pr-16`}>
+      <article
+        className={`${montserrat.className} flex w-full gap-32 pr-16`}
+        id="home"
+      >
         <DestaqueHeaderComponent />
         <ImagesHeaderComponents />
       </article>
