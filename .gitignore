@@ -42,3 +42,6 @@ next-env.d.ts
 
 server.json
 useAPI.jsx
+src/app/api/
+src/app/adminPanel
+/src/components/adminComponents/*.jsx
