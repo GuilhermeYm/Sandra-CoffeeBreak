@@ -1,7 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/Sandra-CoffeeBreak",
-    assetPrefix: "/Sandra-CoffeeBreak"
-};
+const nextConfig = {};
 
 export default nextConfig;

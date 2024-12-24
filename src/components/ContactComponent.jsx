@@ -15,7 +15,7 @@ export default function ContactComponent() {
       className={`py-20 flex justify-center ${montserrat.className} bg-backgroundMainFour text-white w-full px-44`}
       id="contact"
     >
-      <section className="rounded-3xl py-12 bg-backgroundSectionMainFour flex items-center px-10 gap-16">
+      <section className="rounded-3xl py-12 bg-backgroundSectionMainFour flex flex-col xl:flex-row items-center px-10 gap-16">
         <div className="text-9xl">
           <BiSolidCoffee />
         </div>
