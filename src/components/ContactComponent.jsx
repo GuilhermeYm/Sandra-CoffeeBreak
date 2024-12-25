@@ -15,12 +15,12 @@ export default function ContactComponent() {
       className={`py-20 flex justify-center ${montserrat.className} bg-backgroundMainFour text-white w-full px-44`}
       id="contact"
     >
-      <section className="rounded-3xl py-12 bg-backgroundSectionMainFour flex flex-col xl:flex-row items-center px-10 gap-16">
+      <section className="rounded-3xl py-12 bg-backgroundSectionMainFour flex flex-col xl:flex-row items-center px-20 xl:px-10 gap-16">
         <div className="text-9xl">
           <BiSolidCoffee />
         </div>
         <div>
-          <h2 className="font-semibold 2xl:text-6xl xl:text-4xl text-center w-fit">
+          <h2 className="font-semibold text-5xl 2xl:text-6xl xl:text-4xl text-center w-11/12 xl:w-fit">
             Entre em contato conosco
           </h2>
           <div className="flex w-full items-center justify-center mt-9 gap-5">

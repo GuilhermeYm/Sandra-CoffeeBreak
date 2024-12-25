@@ -11,6 +11,7 @@ export default {
       colors: {
         backgroundHeader: "var(--background-header)",
         backgroundHeaderNav: "var(--background-headerNav)",
+        backgroundHeaderNavSecondary: "var(--background-headerNavSecondary)",
         backgroundMainOne: "var(--background-mainOne)",
         backgroundSectioMainOne: "var(--background-sectionMainOne)",
         backgroundMainTwo: "var(--background-mainTwo)",
